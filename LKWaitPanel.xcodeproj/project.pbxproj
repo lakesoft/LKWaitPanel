@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C9A39B8138B24A000E8FA73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9A39B7138B24A000E8FA73 /* UIKit.framework */; };
+		4C9A39BA138B24A000E8FA73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9A39B9138B24A000E8FA73 /* Foundation.framework */; };
+		4C9A39BC138B24A000E8FA73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9A39BB138B24A000E8FA73 /* CoreGraphics.framework */; };
+		4C9A39C2138B24A000E8FA73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A39C0138B24A000E8FA73 /* InfoPlist.strings */; };
+		4C9A39C5138B24A000E8FA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A39C4138B24A000E8FA73 /* main.m */; };
+		4C9A39C8138B24A000E8FA73 /* LKWaitPanelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A39C7138B24A000E8FA73 /* LKWaitPanelAppDelegate.m */; };
+		4C9A39CB138B24A000E8FA73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A39C9138B24A000E8FA73 /* MainWindow.xib */; };
+		4C9A39CE138B24A000E8FA73 /* LKWaitPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A39CD138B24A000E8FA73 /* LKWaitPanelViewController.m */; };
+		4C9A39D1138B24A000E8FA73 /* LKWaitPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A39CF138B24A000E8FA73 /* LKWaitPanelViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C9A39B3138B24A000E8FA73 /* LKWaitPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKWaitPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9A39B7138B24A000E8FA73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C9A39B9138B24A000E8FA73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C9A39BB138B24A000E8FA73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C9A39BF138B24A000E8FA73 /* LKWaitPanel-Info.plist */ = {isa = PBXFileReference; path = "LKWaitPanel-Info.plist"; sourceTree = "<group>"; };
+		4C9A39C1138B24A000E8FA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C9A39C3138B24A000E8FA73 /* LKWaitPanel-Prefix.pch */ = {isa = PBXFileReference; path = "LKWaitPanel-Prefix.pch"; sourceTree = "<group>"; };
+		4C9A39C4138B24A000E8FA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C9A39C6138B24A000E8FA73 /* LKWaitPanelAppDelegate.h */ = {isa = PBXFileReference; path = LKWaitPanelAppDelegate.h; sourceTree = "<group>"; };
+		4C9A39C7138B24A000E8FA73 /* LKWaitPanelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKWaitPanelAppDelegate.m; sourceTree = "<group>"; };
+		4C9A39CA138B24A000E8FA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C9A39CC138B24A000E8FA73 /* LKWaitPanelViewController.h */ = {isa = PBXFileReference; path = LKWaitPanelViewController.h; sourceTree = "<group>"; };
+		4C9A39CD138B24A000E8FA73 /* LKWaitPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKWaitPanelViewController.m; sourceTree = "<group>"; };
+		4C9A39D0138B24A000E8FA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LKWaitPanelViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9A39B0138B24A000E8FA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9A39B8138B24A000E8FA73 /* UIKit.framework in Frameworks */,
+				4C9A39BA138B24A000E8FA73 /* Foundation.framework in Frameworks */,
+				4C9A39BC138B24A000E8FA73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9A39A8138B24A000E8FA73 = {
+			isa = PBXGroup;
+			children = (
+				4C9A39BD138B24A000E8FA73 /* LKWaitPanel */,
+				4C9A39B6138B24A000E8FA73 /* Frameworks */,
+				4C9A39B4138B24A000E8FA73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9A39B4138B24A000E8FA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A39B3138B24A000E8FA73 /* LKWaitPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9A39B6138B24A000E8FA73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A39B7138B24A000E8FA73 /* UIKit.framework */,
+				4C9A39B9138B24A000E8FA73 /* Foundation.framework */,
+				4C9A39BB138B24A000E8FA73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C9A39BD138B24A000E8FA73 /* LKWaitPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A39C6138B24A000E8FA73 /* LKWaitPanelAppDelegate.h */,
+				4C9A39C7138B24A000E8FA73 /* LKWaitPanelAppDelegate.m */,
+				4C9A39C9138B24A000E8FA73 /* MainWindow.xib */,
+				4C9A39CC138B24A000E8FA73 /* LKWaitPanelViewController.h */,
+				4C9A39CD138B24A000E8FA73 /* LKWaitPanelViewController.m */,
+				4C9A39CF138B24A000E8FA73 /* LKWaitPanelViewController.xib */,
+				4C9A39BE138B24A000E8FA73 /* Supporting Files */,
+			);
+			path = LKWaitPanel;
+			sourceTree = "<group>";
+		};
+		4C9A39BE138B24A000E8FA73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A39BF138B24A000E8FA73 /* LKWaitPanel-Info.plist */,
+				4C9A39C0138B24A000E8FA73 /* InfoPlist.strings */,
+				4C9A39C3138B24A000E8FA73 /* LKWaitPanel-Prefix.pch */,
+				4C9A39C4138B24A000E8FA73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9A39B2138B24A000E8FA73 /* LKWaitPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9A39D4138B24A000E8FA73 /* Build configuration list for PBXNativeTarget "LKWaitPanel" */;
+			buildPhases = (
+				4C9A39AF138B24A000E8FA73 /* Sources */,
+				4C9A39B0138B24A000E8FA73 /* Frameworks */,
+				4C9A39B1138B24A000E8FA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKWaitPanel;
+			productName = LKWaitPanel;
+			productReference = 4C9A39B3138B24A000E8FA73 /* LKWaitPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9A39AA138B24A000E8FA73 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4C9A39AD138B24A000E8FA73 /* Build configuration list for PBXProject "LKWaitPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C9A39A8138B24A000E8FA73;
+			productRefGroup = 4C9A39B4138B24A000E8FA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9A39B2138B24A000E8FA73 /* LKWaitPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9A39B1138B24A000E8FA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9A39C2138B24A000E8FA73 /* InfoPlist.strings in Resources */,
+				4C9A39CB138B24A000E8FA73 /* MainWindow.xib in Resources */,
+				4C9A39D1138B24A000E8FA73 /* LKWaitPanelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9A39AF138B24A000E8FA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9A39C5138B24A000E8FA73 /* main.m in Sources */,
+				4C9A39C8138B24A000E8FA73 /* LKWaitPanelAppDelegate.m in Sources */,
+				4C9A39CE138B24A000E8FA73 /* LKWaitPanelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C9A39C0138B24A000E8FA73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9A39C1138B24A000E8FA73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C9A39C9138B24A000E8FA73 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9A39CA138B24A000E8FA73 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4C9A39CF138B24A000E8FA73 /* LKWaitPanelViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C9A39D0138B24A000E8FA73 /* en */,
+			);
+			name = LKWaitPanelViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C9A39D2138B24A000E8FA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4C9A39D3138B24A000E8FA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		4C9A39D5138B24A000E8FA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKWaitPanel/LKWaitPanel-Prefix.pch";
+				INFOPLIST_FILE = "LKWaitPanel/LKWaitPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C9A39D6138B24A000E8FA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKWaitPanel/LKWaitPanel-Prefix.pch";
+				INFOPLIST_FILE = "LKWaitPanel/LKWaitPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9A39AD138B24A000E8FA73 /* Build configuration list for PBXProject "LKWaitPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9A39D2138B24A000E8FA73 /* Debug */,
+				4C9A39D3138B24A000E8FA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9A39D4138B24A000E8FA73 /* Build configuration list for PBXNativeTarget "LKWaitPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9A39D5138B24A000E8FA73 /* Debug */,
+				4C9A39D6138B24A000E8FA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9A39AA138B24A000E8FA73 /* Project object */;
+}
