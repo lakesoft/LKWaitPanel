@@ -7,6 +7,7 @@
 //
 
 #import "LKWaitPanelViewController.h"
+#import "LKWaitPanel.h"
 
 @implementation LKWaitPanelViewController
 
@@ -44,6 +45,16 @@
 {
     // Return YES for supported orientations
     return YES;
+}
+
+- (IBAction)showPanel:(id)sender
+{
+    if ([LKWaitPanel isShowing]) {
+    } else {
+        [LKWaitPanel showOnView:self.view title:@"Hello!"];
+        [LKWaitPanel performSelector:@selector(hide) withObject:nil
+                          afterDelay:5.0];
+    }
 }
 
 @end

@@ -12,4 +12,6 @@
     
 }
 
+- (IBAction)showPanel:(id)sender;
+
 @end

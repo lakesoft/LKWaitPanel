@@ -16,6 +16,7 @@
 		4C9A39CB138B24A000E8FA73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A39C9138B24A000E8FA73 /* MainWindow.xib */; };
 		4C9A39CE138B24A000E8FA73 /* LKWaitPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A39CD138B24A000E8FA73 /* LKWaitPanelViewController.m */; };
 		4C9A39D1138B24A000E8FA73 /* LKWaitPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9A39CF138B24A000E8FA73 /* LKWaitPanelViewController.xib */; };
+		4C9A39D9138B251C00E8FA73 /* LKWaitPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A39D8138B251C00E8FA73 /* LKWaitPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		4C9A39B7138B24A000E8FA73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C9A39B9138B24A000E8FA73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C9A39BB138B24A000E8FA73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4C9A39BF138B24A000E8FA73 /* LKWaitPanel-Info.plist */ = {isa = PBXFileReference; path = "LKWaitPanel-Info.plist"; sourceTree = "<group>"; };
+		4C9A39BF138B24A000E8FA73 /* LKWaitPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKWaitPanel-Info.plist"; sourceTree = "<group>"; };
 		4C9A39C1138B24A000E8FA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4C9A39C3138B24A000E8FA73 /* LKWaitPanel-Prefix.pch */ = {isa = PBXFileReference; path = "LKWaitPanel-Prefix.pch"; sourceTree = "<group>"; };
+		4C9A39C3138B24A000E8FA73 /* LKWaitPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKWaitPanel-Prefix.pch"; sourceTree = "<group>"; };
 		4C9A39C4138B24A000E8FA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C9A39C6138B24A000E8FA73 /* LKWaitPanelAppDelegate.h */ = {isa = PBXFileReference; path = LKWaitPanelAppDelegate.h; sourceTree = "<group>"; };
+		4C9A39C6138B24A000E8FA73 /* LKWaitPanelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKWaitPanelAppDelegate.h; sourceTree = "<group>"; };
 		4C9A39C7138B24A000E8FA73 /* LKWaitPanelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKWaitPanelAppDelegate.m; sourceTree = "<group>"; };
 		4C9A39CA138B24A000E8FA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4C9A39CC138B24A000E8FA73 /* LKWaitPanelViewController.h */ = {isa = PBXFileReference; path = LKWaitPanelViewController.h; sourceTree = "<group>"; };
+		4C9A39CC138B24A000E8FA73 /* LKWaitPanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKWaitPanelViewController.h; sourceTree = "<group>"; };
 		4C9A39CD138B24A000E8FA73 /* LKWaitPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKWaitPanelViewController.m; sourceTree = "<group>"; };
 		4C9A39D0138B24A000E8FA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LKWaitPanelViewController.xib; sourceTree = "<group>"; };
+		4C9A39D7138B251C00E8FA73 /* LKWaitPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKWaitPanel.h; sourceTree = "<group>"; };
+		4C9A39D8138B251C00E8FA73 /* LKWaitPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKWaitPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +55,8 @@
 		4C9A39A8138B24A000E8FA73 = {
 			isa = PBXGroup;
 			children = (
-				4C9A39BD138B24A000E8FA73 /* LKWaitPanel */,
+				4C9A39DA138B252E00E8FA73 /* LKWaitPanel */,
+				4C9A39BD138B24A000E8FA73 /* TestApplication */,
 				4C9A39B6138B24A000E8FA73 /* Frameworks */,
 				4C9A39B4138B24A000E8FA73 /* Products */,
 			);
@@ -76,7 +80,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4C9A39BD138B24A000E8FA73 /* LKWaitPanel */ = {
+		4C9A39BD138B24A000E8FA73 /* TestApplication */ = {
 			isa = PBXGroup;
 			children = (
 				4C9A39C6138B24A000E8FA73 /* LKWaitPanelAppDelegate.h */,
@@ -87,6 +91,7 @@
 				4C9A39CF138B24A000E8FA73 /* LKWaitPanelViewController.xib */,
 				4C9A39BE138B24A000E8FA73 /* Supporting Files */,
 			);
+			name = TestApplication;
 			path = LKWaitPanel;
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,15 @@
 				4C9A39C4138B24A000E8FA73 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C9A39DA138B252E00E8FA73 /* LKWaitPanel */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A39D7138B251C00E8FA73 /* LKWaitPanel.h */,
+				4C9A39D8138B251C00E8FA73 /* LKWaitPanel.m */,
+			);
+			name = LKWaitPanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,7 @@
 				4C9A39C5138B24A000E8FA73 /* main.m in Sources */,
 				4C9A39C8138B24A000E8FA73 /* LKWaitPanelAppDelegate.m in Sources */,
 				4C9A39CE138B24A000E8FA73 /* LKWaitPanelViewController.m in Sources */,
+				4C9A39D9138B251C00E8FA73 /* LKWaitPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +256,7 @@
 				GCC_PREFIX_HEADER = "LKWaitPanel/LKWaitPanel-Prefix.pch";
 				INFOPLIST_FILE = "LKWaitPanel/LKWaitPanel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,6 +270,7 @@
 				GCC_PREFIX_HEADER = "LKWaitPanel/LKWaitPanel-Prefix.pch";
 				INFOPLIST_FILE = "LKWaitPanel/LKWaitPanel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
