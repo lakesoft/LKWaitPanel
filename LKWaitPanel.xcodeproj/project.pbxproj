@@ -140,6 +140,9 @@
 /* Begin PBXProject section */
 		4C9A39AA138B24A000E8FA73 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 4C9A39AD138B24A000E8FA73 /* Build configuration list for PBXProject "LKWaitPanel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -295,6 +298,7 @@
 				4C9A39D6138B24A000E8FA73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,7 @@
 
 // API
 //+ (void)showWithTitle:(NSString*)title;
-+ (void)showOnView:(UIView*)view title:(NSString*)title ;
++ (void)showOnView:(UIView*)view title:(NSString*)title;
 + (void)hide;
 + (BOOL)isShowing;
 
